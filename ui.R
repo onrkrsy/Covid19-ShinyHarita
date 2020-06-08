@@ -6,7 +6,6 @@ library("shinythemes")
 source("sections/ui_overview.R", local = TRUE)
 source("sections/ui_plots.R", local = TRUE)
 source("sections/ui_about.R", local = TRUE)
-source("sections/ui_fullTable.R", local = TRUE)
 
 ui <- fluidPage(
   title = "COVID-19 Takip",theme = shinytheme("flatly"),
